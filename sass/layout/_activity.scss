@@ -1,4 +1,4 @@
-.works {
+.activity {
   display: none;
 
   @media screen and (min-width: 1200px) {
@@ -7,18 +7,18 @@
   }
 }
 
-.works__list {
+.activity__list {
   display: flex;
 }
 
-.works__item {
+.activity__item {
   position: relative;
   & + & {
     margin-left: 30px;
   }
 }
 
-.works__label {
+.activity__label {
   position: absolute;
   display: flex;
   justify-content: center;

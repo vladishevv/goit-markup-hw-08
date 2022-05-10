@@ -15,6 +15,7 @@
 .top-line {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .navigation {
   display: flex;
@@ -101,6 +102,12 @@
     margin-left: 50px;
   }
 }
+
+.contacts__item:first-child {
+  @media screen and (min-width: 780px) and (max-width: 1200px) {
+    margin-bottom: 10px;
+  }
+}
 .contacts__link {
   display: flex;
   text-decoration: none;
@@ -123,7 +130,6 @@
   }
   &.mail {
     padding-top: 20px;
-    margin-bottom: 10px;
   }
   &.tel {
     padding-bottom: 20px;
